@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <style>
+      #navbar{
+        height: 50px;
+        width:100%;
+        background-color: rgb(216, 199, 199);
+      }
+      #menu {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+img {
+  width: 130px;
+  object-fit: cover;
+  margin-left: 80px;
+}
+button{
+  margin-left: 100px;
+  border:1px solid black;
+  padding:10px;
+  border-radius: 20px;
+  font-size: 15px;
+}
+#menu > div {
+  border: 1px solid red;
+  /* display: flex; */
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+#menu > div > p {
+   text-align: center; 
+}
+button{
+  cursor: pointer;
+}
+#cart{
+  font-size: 20px;
+  padding: 15px;
+  margin-left: 50px;
+  cursor: pointer;
+}
+    </style>
+  </head>
+
+  <body>
+    <div id="navbar">
+      <!--Add menu divs here-->
+      <div id="cart" onclick="window.location.href='cart.html'">Goto Cart</div>
+      <div id="count"></div>
+    </div>
+
+    <div id="menu">
+
+      <!--Show indian dishes here in grid format-->
+      <!-- add an add to cart button to each dish, give it HTML id as 'addtocart' -->
+
+    </div>
+  </body>
+
+</html>
+
+<script src="scripts/index.js"></script>

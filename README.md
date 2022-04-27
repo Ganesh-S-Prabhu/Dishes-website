@@ -3,8 +3,7 @@ This project is done to see any dishes with recpect to main ingredients and to s
 
 
 
-
-For this project i used the API : https://shrouded-earth-23381.herokuapp.com/api/headlines/india
+This is the API for this project : https://www.themealdb.com/api/json/v1/1/filter.php?i=${ingredient_name}
 
 [Deployed link](https://sage-treacle-a7a6e7.netlify.app/)
 
